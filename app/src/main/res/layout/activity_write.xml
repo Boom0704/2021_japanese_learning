@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textwrite"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="일본어 쓰기 학습하기"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="9">
+
+        <Button
+            android:id="@+id/p3btnr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="학습회차 선택하기"
+            android:layout_weight="2"
+            android:layout_marginHorizontal="80dp"
+            android:layout_marginVertical="5dp"
+            android:background="@drawable/solid_button"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginHorizontal="80dp"
+            android:layout_marginVertical="5dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/p3btnw"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="복습할 목록 선택하기"
+                android:background="@drawable/solid_button"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/makeReview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="복습할 목록 생성하기"
+                android:background="@drawable/solid_button"
+                android:layout_weight="3"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/p3btnrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="랜덤 단어 선택하기"
+            android:layout_weight="2"
+            android:layout_marginHorizontal="80dp"
+            android:layout_marginVertical="5dp"
+            android:background="@drawable/solid_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>

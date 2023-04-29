@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d1dddb">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="일본어 읽기 학습하기"
+        android:textColor="#bdbdbf"
+        android:textSize="25dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/readingbtnmain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:textColor="@color/black"
+        android:text="단어 자리"
+        android:textSize="50dp"
+        android:background="@drawable/readaction_main"/>
+    <TextView
+        android:id="@+id/ganaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="히라가나 자리"
+        android:textColor="#32435f" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/readingbtnwrong"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="wrong"
+            android:background="@drawable/readaction_button1"/>
+
+        <Button
+            android:id="@+id/readingbtnsound"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="sound"
+            android:background="@drawable/readaction_button2" />
+
+        <Button
+            android:id="@+id/readingbtnpass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="pass"
+            android:background="@drawable/readaction_button3" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:text="쓰면서 익히는 일본어!"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="9">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:background="@null"
+            android:src="@drawable/hometitle"/>
+
+        <Button
+            android:id="@+id/p1btnr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="일본어 읽기 학습하기"
+            android:textColor="#32435f"
+            android:layout_weight="2"
+            android:layout_marginHorizontal="80dp"
+            android:layout_marginVertical="5dp"
+            android:background="@drawable/solid_button"/>
+
+        <Button
+            android:id="@+id/p1btnw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="일본어 쓰기 학습하기"
+            android:textColor="#32435f"
+            android:layout_weight="2"
+            android:layout_marginHorizontal="80dp"
+            android:layout_marginVertical="5dp"
+            android:background="@drawable/solid_button"/>
+
+        <Button
+            android:id="@+id/p1btns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="환경설정"
+            android:textColor="#32435f"
+            android:layout_weight="2"
+            android:layout_marginHorizontal="80dp"
+            android:layout_marginVertical="5dp"
+            android:background="@drawable/solid_button"/>
+    </LinearLayout>
+
+
+</LinearLayout>

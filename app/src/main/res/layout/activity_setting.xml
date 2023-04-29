@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="환경 설정"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="9"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="사용 설명서"
+            android:layout_marginTop="10dp"
+            android:textColor="#bdbdbf"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="처음 어플리케이션을 실행하시면 환경설정 > 환경 변수 설정을 눌러주시기 바랍니다. 데이터 셋과 초기 값을 설정합니다. 기본 값에는 복습하기를 이용하실 수 없습니다. 오후 2시에 데이터 베이스 세팅을 이용하여 복습을 추가합니다. 사용자는 임의로 데이터베이스 세팅을 사용하실 수 있습니다. 학습을 꾸준히 하셔서 단어의 이해도가 높아진다면 복습에 추가 되지 않습니다. 사용자가 학습을 게을리 한다면 단어 복습 리스트에 새로운 목록이 만들어집니다. 복습 단어 리스트는 매 새로운 20개만 사용자가 이용하실 수 있습니다."
+            android:textColor="#32435f"
+            android:textSize="20dp"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/settingbtns"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="환경 변수 설정"
+        android:layout_weight="2"
+        android:background="@drawable/writeaction_button3"/>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="리셋"
+        android:layout_weight="2"
+        android:background="@drawable/writeaction_button3"/>
+
+</LinearLayout>
+
+
+
+</LinearLayout>
